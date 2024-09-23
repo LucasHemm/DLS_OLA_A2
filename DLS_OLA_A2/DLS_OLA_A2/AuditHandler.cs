@@ -25,7 +25,7 @@ public class AuditHandler
         {
             Console.WriteLine("Warehouse Location: " + warehouse.Location);
             Console.WriteLine("Warehouse Capacity: " + warehouse.Capacity);
-            Console.WriteLine("Warehouse Stock: ");
+            Console.WriteLine("Warehouse Stock " + "(" + warehouse.Stock.Count+  ")"+ ": ");
                 
             foreach (var barrel in warehouse.Stock)
             {
@@ -95,7 +95,7 @@ public class AuditHandler
                 Console.WriteLine("Gate Staff information is missing.");
             }
 
-            Console.WriteLine($"Shipments ({chemicalBarrels.Count}): ");
+            Console.WriteLine($"Amount of barrels ({chemicalBarrels.Count}): ");
 
             foreach (var shipment in chemicalBarrels)
             {

@@ -29,5 +29,11 @@ public class Warehouse
         this.Stock = stock ?? new List<ChemicalBarrel>();
         this.Location = location;
     }
+    public Warehouse(int capacity, string location, Depot depot)
+    {
+        this.Capacity = capacity;
+        this.Location = location;
+        this.Depot = depot;
+    }
 
 }

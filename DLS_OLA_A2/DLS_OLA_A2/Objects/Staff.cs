@@ -8,6 +8,8 @@ public class Staff
     public string Name{ get; set; }
     public int PhoneNumber{ get; set; }
     public string Role{ get; set; }
+    
+    public Depot Depot{ get; set; }
 
 
     public Staff()
@@ -27,5 +29,12 @@ public class Staff
         this.Name = name;
         this.PhoneNumber = phoneNumber;
         this.Role = role;
+    }
+    public Staff(string name, int phoneNumber, string role, Depot depot)
+    {
+        this.Name = name;
+        this.PhoneNumber = phoneNumber;
+        this.Role = role;
+        this.Depot = depot;
     }
 }

@@ -20,6 +20,10 @@ public class Depot
         this.Warehouses = warehouses;
         this.Staff = staff;
     }
+    public Depot(string name)
+    {
+        this.Name = name;
+    }
     
     public Depot(List<Warehouse> warehouses, List<Staff> staff)
     {
