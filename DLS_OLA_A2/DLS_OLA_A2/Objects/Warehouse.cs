@@ -8,6 +8,7 @@ public class Warehouse
     public int Capacity{ get; set; }
     public List<ChemicalBarrel> Stock{ get; set; }
     public string Location{ get; set; }
+    public Depot Depot{ get; set; }
 
     
     public Warehouse()
@@ -18,14 +19,14 @@ public class Warehouse
     {
         this.Id = id;
         this.Capacity = capacity;
-        this.Stock = stock;
+        this.Stock = stock ?? new List<ChemicalBarrel>();
         this.Location = location;
     }
 
     public Warehouse(int capacity, List<ChemicalBarrel> stock, string location)
     {
         this.Capacity = capacity;
-        this.Stock = stock;
+        this.Stock = stock ?? new List<ChemicalBarrel>();
         this.Location = location;
     }
 
