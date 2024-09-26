@@ -13,6 +13,9 @@
 Vi har primært tænkt os at øve os i at bruge Github projects som et klassisk kanban board. Vi vil gøre brug af labels for user stories og tasks til at styre hvad der bliver lavet. Vi har også opsat workflow automation så vi ud fra labels automatisk kan flytte tasks til de rigtige kolonner.
 Vi har tænkt os bare at bruge Size som estimerings værktøj da user stories og opgaven er tilpas lille til at vi ikke mener at der er brug for konkrete estimeringer.
 
+User stories er nogle vi selv har lavet til denne opgave baseret på de 2 beskrivelser i opgaveformuleringen. Vi har valgt selv at lave dem så vi kunne bruge den feedback vi fik fra undervisningen.
+
+
 ---
 
 ## User Story 1: Lorry Arrival and Shipment Processing
